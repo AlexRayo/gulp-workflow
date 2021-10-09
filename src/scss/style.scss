@@ -1,0 +1,12 @@
+@import 'components/header.scss';
+@import 'utils/vars.scss';
+
+* {
+  font-family: Roboto, "Helvetica Neue";
+  color: $darkColor;
+}
+
+//
+.rotate-center {
+	animation: rotate-center 0.6s ease-in-out both;
+}
